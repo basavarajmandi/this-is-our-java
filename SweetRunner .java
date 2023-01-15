@@ -2,6 +2,8 @@ class SweetRunner{
 	public static void main(String[] args){
 		
 	System.out.println(Sweet.name);
+		Sweet.name="laddu";
+		System.out.println(sweet.name);
 	System.out.println(Sweet.price);
  System.out.println("ther are verious type of colour");
  
