@@ -5,16 +5,14 @@ public class Food {
 	static String[] ingredients(String name) 
 	{
 		System.out.println("name:"+name);
-	if(name=="baji")
+	   if(name=="baji")
 	{
 		 String[]ingredients={"water","ginger","salt","greenchili","oil"};
-		 for(int i=0;i<ingredients.length;i++)
-			{
-			 System.out.println(ingredients[i]);
-			}
+		
+		 
 		 return ingredients;
 	}
-	
+	   
 	  return null;
 	}
 	
@@ -22,8 +20,12 @@ public class Food {
 
 	public static void main(String[] args) 
 	{
-		Food.ingredients("vada");
-		Food.ingredients("baji");
+		String[]ref=Food.ingredients("baji");
+		
+		 for(int i=0;i<ref.length;i++)
+			{
+			 System.out.println(ref[i]);
+			}
 	}
   
 }

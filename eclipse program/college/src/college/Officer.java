@@ -270,11 +270,13 @@ public class Officer{
 	{
 	
    int ref=Officer.salary("pdo");
-		   System.out.println("salary:"+ref);
+		  System.out.println("salary:"+ref);
+		  
 		   
 		   
    int ref1=Officer.salary("fda");
-   System.out.println("salary:"+ref1);
+ 
+          System.out.println("salary:"+ref1);
 
 	}
 
