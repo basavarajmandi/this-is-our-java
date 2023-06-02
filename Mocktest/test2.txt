@@ -1,0 +1,202 @@
+1) explan java components
+-> java componets =jre,jdk,jvm;
+
+jvm=java vartual machin;
+*it is not physicaly  exists,
+ *and jvm it it is provading jre to canvart a high level language to machine level language,
+*jvm is palt form depended,
+*also a  it canvart byte code source into binary code soure,
+--------------------------------------------------------------------------------------------------------------------
+jre=java run time enivronment;
+*jre is physical exists;
+*jre is plat form independed;
+*jre consist jdk+of set of jarfile and set of labraryi,
+---------------------------------------------------------------------------------------------------------------------
+jdk=java developmet kit;
+*it consistv of jre+set of tools;
+-----------------------------------------------------------------------------------------------------
+2)java features
+-> *its is open source;-becuse its available in any os system;
+-> *simple and secure:-java is a very esay to learn becouse syntax is simple and easy to understand,and best for security in java we can develop virus free system,
+->* multithreded:-threded is like a saparate program executing at the same time,we can write java program that deal with many task at once,
+->* the main advantage of multithreded is it dosenot accupy memory for each thread,its share comman memory area,
+->* oops porgraming->is a methodology that simplefes software development by providing sum rulls,
+->*its portable->java is poratble becuse its cary the byte code to  any platform & its doesnts requere any implementction; 
+->*dynamic in nature->java is dynamic becouse of byecode .the source code which is written in one plateform.its load the class file during run time only hence any thing that happens in runtime is dynamiuc,
+->*its have garbage collector->unwanted file and statment its will automatic delated we dosenot need to remow,
+->*its a distributed -> becouse users to created distributed application in java ,
+
+*****************************************************************************************************************
+3)explan constructrs
+->*construct is spical type of method;
+->*its is also calld as object referans type;
+->*its its used to initized the object;
+->* its have no any return type;
+->*constructer is invoked when new keyword is used to create a object
+-      type   -
+->*paramaresed constructer ;
+->*defoult constructer;
+*constructer hava number of  parameter than is calld; purpose proveding deffent value to the object,
+*defoult constructer dostnot have any parametr;becouse the main purpose of defult constructer to given a defoult value to the object;
+contructer chaining -> the process of one constructer calling anathor constructer,
+***************************************************************************************************************
+4)explan verable
+varabel is contanar in order to store the date ;
+type=
+class leval varabel   is also calld as instance varable;                                       
+*its have 2 type                                           
+1)static var  ;                                             
+2)non static var;                                           
+*static var->is declaer the with in the calss and 
+out side the menthod
+*non static var->its dostnot use the static word; 
+ *************************************************************************************************************
+ menthod level varabal  
+*its have 2type
+    1)local var;
+local var->its decler with in sude the  body of the menthod and its dosenot decler the static keyword,
+method level->its decler the inside the method;
+*****************************************************************************************
+
+5)why java not fully object oriented language
+ -> becouse its supports primitiv data type like int .float.long  which are not object , java is not 100% object oreated language .whay we use int float  etc becouse of thes are more faster than objcet  to achive faster execution of java thay kept primateve  date type as its is.
+
+
+6)static bending or early bending 
+*is also calld as overloding polimorpesum and also call as completime polimorepusm;
+*its ex: method overloding-> a class have numner of method haveing same name as class name but deffer in the parameter is calld as 
+*its less flexible  as all things execute at completime 
+*inheritance is not invalved 
+-----------------------------------------------------------------------------------------------
+dynamic bending or late bending,
+*is also calld as runtime polimorepusm and aslo calld as overring polimporesum;
+* its a chald class have sum methods as declared in the parent class;
+its used to implementction of the method on child class,
+*in case method overrinding parameter are same
+* its more flexible as all thing execute @ euntime.
+------------------------------------------------------------------------------------
+7)explan oops concepts
+the main oops concepts stand with the main basic princepal
+1)polimorpesum;
+3)encopusulec
+2)inheritance;
+3)incopsulection;
+4)obstection;
+
+polimorpesum-> 
+*poly mens many ,morpesum is form ;
+*its dereved form greekword;
+* we donmg its singal action in defernt ways
+in 2type:
+1)completime polimorepesum-static bending
+2)runtime poliimorepesum
+:-ex of completime polimorepesum is method overloding-->a class have number of method whish have same name as call name but diffent in parameter
+
+
+
+encopulec->
+its a procee its groupng data into single unit;
+its private keyword is used achive a encopulecing 
+by suing seter and getter method we can acces outside the class
+ex:-java bin class,
+5 rulls to encopulc
+->class shoud have public 
+->verable declared as private,
+->use setter and getter method ,
+->method declared as public,
+->class shoud have one defualt constructer; 
+
+**********************************************************************************************************
+5)explan interface
+*its is standed connect between two sysytem, in java a standed connect beteen two differt class;
+*in interface we acived 100% abstraction;
+-------------------------------------------------------------------------------------------------------------
+6)explan exeption
+the main exeptin of herachy is trowable 
+in trowable have two subclass
+1)error -> is a system exeption;
+2)exeption in exeption have again subclass
+in exeption have subcalss are -> runtime exeptin is logical exeption
+* exeption:- is a unwanted and un exeapted evnet is distrubing the normal flow of program;
+*in  when exeption is accurd we need to handal the exeption by using try and catch;
+*in exeption have 
+ tyepe
+ *chaked exeption and un chaked exeption 
+  in chaked exeption ara its forc to handla the exeption;
+
+  and by using  trow and trwos this are kayword;
+  trow will trow the exeption and its handle by trwos kayword  its decledr in method beside the parametar;
+  ------------------------------------------------------------------------------------------------------------
+7)explan acces spicifiers
+Access spicifiers define the visibility of the class, 
+
+acces spicifiers is uesd to acces tha date in one class to anter class
+in thant
+ public, and private,protected,final,defult;
+in public -> public acces spicifirs are acces data form  any calss and any  packge;
+in private -> in private acces levelof private is only with in class and it can not acces form out side the class
+in protected->its acces spicifiers are  used acces within package and outside the package whrought only subcalss
+in final is kayword is used to final the whatever we wright the class;
+in defult-->its only within the packge can not be accssed from outside the packge,if don't specify any acces level its wiil be defult
+
+
+
+8)differnce beetwen abstraction and inerface
+
+abstraction                                                                          interface
+*abstraction is procee withouting knowlged about                 *in interface is standed cannected  beetwen to system
+inernal implementction we using functionaltyes;
+
+*in abstact class used abstactkeyword                            * in interface class used as interface kayword
+*in abstraction abstact method have abstrct and non abstract      *its have 100% achive abstraction
+method or also calld as concreat method;
+                                                                   *its we used only abstct method;
+                                                                     *in abstact dost't have any body; 
+
+
+
+
+
+
+
+10)yes can have private constructor but we only within the pakege can create object can axcess out side the pakege
+constructor cant overload.
+if we can constructor overload by using this keyword,
+ex:-
+class basu{
+String name;
+int age;
+
+String basu (){
+ sysout("no argumnert cons")
+ }
+ 
+ String basu(String name, int age){
+ thid.name=name;
+ this.age=age;
+ }
+
+}
+
+
+
+
+
+
+this keyword->
+*this is keyword  
+*its used to recetife the corent object
+*this keword is used to avoid the ambigute between instanace vereble and parameter vereble
+
+this method->
+*this()->this method is used to avoid the differnce between override method,
+*its used to chain the one construct to anthor constructor,
+
+
+
+ 
+ 
+ 
+
+
+
