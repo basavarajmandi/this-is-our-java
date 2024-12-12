@@ -17,6 +17,6 @@ class Bike{
 	}
 	static void price()
 	{
-		System.out.println("bike price is more");
+		System.out.println("bike price is more and less");
 	}
 }
